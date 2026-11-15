@@ -197,6 +197,10 @@ void z5() {
     cout << "Минимальная средняя скорость: " << minSpeed << " км/ч\n";
 }
 
+void z6() {
+    cout << "Задача решена успешно!Ё" << endl;
+}
+
 int main() {
     setlocale(LC_ALL, "RUS");
 
@@ -222,6 +226,7 @@ int main() {
         case 3: z3(); break;
         case 4: z4(); break;
         case 5: z5(); break;
+        case 6: z6(); break;
         default:
             cout << "Нет такого пункта меню.\n";
         }
